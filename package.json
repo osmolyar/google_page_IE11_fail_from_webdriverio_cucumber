@@ -1,0 +1,36 @@
+{
+  "name": "mediviewer_automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "wdio ./config/wdio.conf.js",
+    "ie": "wdio ./config/wdio.IE.conf.js",
+    "headless": "wdio ./config/wdio.HEADLESS.conf.js",
+    "firefox": "wdio ./config/wdio.firefox.conf.js",
+    "regression": "wdio ./config/wdio.conf.js --cucumberOpts.tagExpression='@RegressionTest'",
+    "wip": "wdio ./config/wdio.conf.js --cucumberOpts.tagExpression='@WIP'"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.11.1",
+    "@babel/preset-env": "^7.11.0",
+    "@babel/register": "^7.10.5",
+    "@wdio/allure-reporter": "^6.3.6",
+    "@wdio/cli": "^6.4.0",
+    "@wdio/cucumber-framework": "^6.4.0",
+    "@wdio/local-runner": "^6.4.0",
+    "@wdio/selenium-standalone-service": "^6.4.0",
+    "@wdio/spec-reporter": "^6.4.0",
+    "selenium-standalone": "^6.18.0",
+    "wdio-iedriver-service": "^0.1.0"
+  },
+  "dependencies": {
+    "@wdio/sync": "^6.4.0",
+    "expect": "^26.4.1",
+    "expect-webdriverio": "^1.2.0",
+    "moment": "^2.27.0"
+  }
+}

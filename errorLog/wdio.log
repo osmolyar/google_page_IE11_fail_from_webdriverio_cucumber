@@ -1,0 +1,14 @@
+2020-08-25T21:04:13.990Z ERROR @wdio/cli:utils: A service failed in the 'onPrepare' hook
+Error: Could not download https://chromedriver.storage.googleapis.com/84.0.4147.89/chromedriver_win32.zip
+    at Request.<anonymous> (C:\selenium\webdriverio_cucumber-master\node_modules\selenium-standalone\lib\install.js:374:21)
+    at Request.emit (events.js:209:13)
+    at Request.EventEmitter.emit (domain.js:476:20)
+    at Request.onRequestResponse (C:\selenium\webdriverio_cucumber-master\node_modules\selenium-standalone\node_modules\request\request.js:1059:10)
+    at ClientRequest.emit (events.js:209:13)
+    at ClientRequest.EventEmitter.emit (domain.js:476:20)
+    at HTTPParser.parserOnIncomingClient [as onIncoming] (_http_client.js:582:27)
+    at HTTPParser.parserOnHeadersComplete (_http_common.js:115:17)
+    at TLSSocket.socketOnData (_http_client.js:456:22)
+    at TLSSocket.emit (events.js:209:13)
+
+Continue...
