@@ -1,23 +1,22 @@
-Node JS 12.16.1 or higher needed to run WebdriverIOv6 
-Install NodeJS from  https://nodejs.org/en/
-
-Install Java for selenium standalone service to run
-install java jdk - https://www.oracle.com/java/technologies/javase-jdk8-downloads.html
 
 
-## Resources
-https://testautomationu.applitools.com/webdriverio-tutorial/
 
-any issues- delete the node_modules folder and then run 
+## Setup
 
 'npm install' 
 
 ## RUNNING TESTS
-run all tests: npm test
-run test on particular environment (else it will run on mvtest by default) eg: SERVER=mvdemo npm test 
-Run a single feature file eg: npm test -- --spec=features/login.feature
-Files marked with tag @Pending will not run - this is set in 'wdio.conf.js' file
-To run a file with a tag: npm test -- --cucumberOpts.tagExpression='@Login'
+'npm run ie'  to run on Internet Explorer and reproduce click issue
+'npm run chrome' to run on Chrome (works)
+
+
+
+
+
+
+
+
+
 
 ## VSCode Extensions
 Cucumber (Gherkin) Full Support:  alexkrechik.cucumberautocomplete
